@@ -10,4 +10,8 @@ app.use(express.json());
 app.use(routes);
 app.use(errors()); // Configuração do error
 
-app.listen(3333);
+module.exports = app;
+
+
+// npm install jest - Teste
+// comando: npx jest --init y - node - N - Y
